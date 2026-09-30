@@ -2,8 +2,8 @@
 
 | # | Assignment | Modality | Task | Headline result |
 |---|------------|----------|------|-----------------|
-| **HW1** | [`Codesearch/`](Codesearch/) | Text → **Code** | Retrieve the Python function that implements a described behaviour | **Recall@10 = 0.952** (fine-tuned CodeBERT) |
-| **HW2** | [`Imagesearch/`](Imagesearch/) | Text → **Image** | Retrieve the figure from a scientific paper that answers a question | **0.94** public leaderboard (cross-encoder + OCR) |
+| [**HW1**](#hw1--text-to-code-retrieval) | [`Codesearch/`](Codesearch/) | Text → **Code** | Retrieve the Python function that implements a described behaviour | **Recall@10 = 0.952** (fine-tuned CodeBERT) |
+| [**HW2**](#hw2--text-to-figure-retrieval) | [`Imagesearch/`](Imagesearch/) | Text → **Image** | Retrieve the figure from a scientific paper that answers a question | **0.94** public leaderboard (cross-encoder + OCR) |
 
 ---
 
