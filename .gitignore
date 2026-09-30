@@ -270,12 +270,8 @@ Codesearch/**/*.pt
 /Imagesearch/**/test_images/
 /Imagesearch/**/*_papers_latex/
 
-# --- Lab: VLM video captioning --------------------------------------------
-#   Only vlm.py / capture.py are worth tracking; the venv, source videos and
-#   extracted frames (~877 MB) are not.
-/VLM/vlm_env/
-/VLM/img/
-/VLM/**/*.mp4
+# --- Lab: VLM video captioning (not tracked) ------------------------------
+/VLM/
 
 # --- Media / raw assets ---------------------------------------------------
 *.mp4
@@ -299,6 +295,3 @@ submission.csv
 outputs/
 scratch/
 wandb/
-
-
-/VLM
